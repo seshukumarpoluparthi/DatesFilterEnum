@@ -14,6 +14,7 @@
 		28ACBBDB21452651003836B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28ACBBD921452651003836B9 /* LaunchScreen.storyboard */; };
 		28ACBBE621452651003836B9 /* DatesFilterEnumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ACBBE521452651003836B9 /* DatesFilterEnumTests.swift */; };
 		28ACBBF121452652003836B9 /* DatesFilterEnumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ACBBF021452652003836B9 /* DatesFilterEnumUITests.swift */; };
+		28ACBBFF21452743003836B9 /* ModelOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ACBBFE21452743003836B9 /* ModelOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		28ACBBEC21452652003836B9 /* DatesFilterEnumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatesFilterEnumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28ACBBF021452652003836B9 /* DatesFilterEnumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesFilterEnumUITests.swift; sourceTree = "<group>"; };
 		28ACBBF221452652003836B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28ACBBFE21452743003836B9 /* ModelOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				28ACBBD721452651003836B9 /* Assets.xcassets */,
 				28ACBBD921452651003836B9 /* LaunchScreen.storyboard */,
 				28ACBBDC21452651003836B9 /* Info.plist */,
+				28ACBBFE21452743003836B9 /* ModelOperations.swift */,
 			);
 			path = DatesFilterEnum;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				28ACBBD32145264A003836B9 /* ViewController.swift in Sources */,
 				28ACBBD12145264A003836B9 /* AppDelegate.swift in Sources */,
+				28ACBBFF21452743003836B9 /* ModelOperations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
